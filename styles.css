@@ -1,2 +1,44 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #222;
+}
 
-/* Your CSS Code here. */
+header {
+  background-color: #1a1a1a;
+  color: #f1c40f;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f1c40f;
+}
+
+summary {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+  text-align: justif
